@@ -1,4 +1,4 @@
-@use "helpers" as *;
+@use 'helpers' as *;
 
 :root {
   --color-light: #ffffff;
@@ -16,8 +16,10 @@
 
   --color-red: #ff5500;
 
-  --font-family-base: "Inter", sans-serif;
-  --font-family-accent: "Kumbh Sans", sans-serif;
+  --border: #{rem(1)} solid var(--color-dark-15);
+
+  --font-family-base: 'Inter', sans-serif;
+  --font-family-accent: 'Kumbh Sans', sans-serif;
 
   --container-width: #{rem(1600)}; /* Потиому что саас не умеет без єтой конструкции , обрабатівать функции в переменніх */
   --container-padding-x: #{rem(16)};
