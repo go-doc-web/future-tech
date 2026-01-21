@@ -411,5 +411,20 @@ a[class] {
   text-align: center;
   border-bottom: var(--border);
 }
+.header__body {
+  padding-block: 1.65625rem;
+  background-color: var(--color-dark-10);
+}
+.header__body-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+}
+@media (width > 47.99875rem) {
+  .header__overlay {
+    display: contents;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
